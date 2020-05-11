@@ -25,7 +25,7 @@
       }
     });
   });
-  $('#id_search').keypress(onSearchKeyPressed);
+  $('#id_q').keypress(onSearchKeyPressed);
 }).call(this);
 
 function onSearchKeyPressed(event) {
